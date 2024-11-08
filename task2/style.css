@@ -1,0 +1,118 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#wrapper{
+   height: 100vh;
+   width: 100%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+   margin: 0 7rem;
+   
+}
+
+.navbar, .logo, .navbar-items{
+   margin-top: .5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo{
+   gap: 8px;
+}
+
+.logo-text1{
+   font-size: 1.5rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   color: red;
+}
+
+.logo-text2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #916868;
+}
+.search{
+   
+}
+
+.search input{
+   padding: 5px 1rem;
+   border-radius: 13px;
+   border:2px solid #916868;
+}
+
+.navbar-items {
+   justify-content: space-between;
+   gap: 2.5rem;
+}
+
+.navbar-items a{
+   text-decoration: none;
+   color: #916868;
+   font-size: 1.1rem;
+}
+
+.navbar-items div a:hover{
+   color: #7a4b4b;
+
+}
+
+.content{
+   height: 70vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.content .box{
+   height: 15rem;
+   width: 15rem;
+   border-radius: 10px;
+}
+
+.box:hover{
+   scale: 1.2;
+   transition: all 0.5s ease-in-out;
+}
+
+.box img{
+   height: 17rem;
+}
+
+.box1{
+   background: linear-gradient(70deg, rgb(83, 83, 172), rgb(39, 21, 56));
+}
+
+.box2{
+   background: linear-gradient(70deg, rgb(126, 77, 14), rgb(155, 168, 31));
+}
+.box3{
+   background: linear-gradient(70deg, rgb(25, 23, 138), rgb(141, 104, 177));
+}
+.box4{
+   background: linear-gradient(70deg, rgb(151, 17, 24), rgb(119, 96, 141));
+}
+
+.footer{
+   color: #916868;;
+   border-top: 2px solid #916868;;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer div{
+   margin-top: 2rem;
+}
+
+.social a{
+   margin: 2rem;
+   text-decoration: none;
+   color: #7a4b4b;
+}
